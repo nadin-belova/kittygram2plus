@@ -39,7 +39,7 @@ class CatViewSet(viewsets.ModelViewSet):
     
     pagination_class = None
     filterset_fields = ('color', 'birth_year')
-    search_fields = ('name',)https://vk.com/wall140746230_13437
+    search_fields = ('name',)
     ordering_fields = ('name', 'birth_year')
     ordering = ('birth_year',) 
 
